@@ -516,27 +516,12 @@ height: 26px;
 }
 .language{
     position: relative;
-    margin-left: 21px;
     width: max-content;
     font-family: 'Circular Std';
     font-style: normal;
     font-weight: 450;
     font-size: 14px;
     line-height: 18px;
-}
-.language::before {
-
-    content: '';
-    position: absolute;
-    left: -21px;
-    top: 7%;
-    width: 13px;
-    height: 13px;
-    background-image: url(Globus 73.png);
-    background-position: center;
-    background-size: cover;
-    z-index: 50;
-
 }
 .language::after {
     content: '';
